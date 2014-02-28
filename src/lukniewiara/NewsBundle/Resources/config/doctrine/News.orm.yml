@@ -1,0 +1,21 @@
+lukniewiara\NewsBundle\Entity\News:
+    type: entity
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        title:
+            type: string
+            length: '60'
+            column: Title
+        content:
+            type: text
+            column: Content
+        addedAt:
+            type: datetime
+            column: added_at
+    lifecycleCallbacks: {  }

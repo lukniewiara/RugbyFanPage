@@ -1,0 +1,4 @@
+lukniewiara_news:
+    resource: "@lukniewiaraNewsBundle/Resources/config/routing.yml"
+    prefix:   /
+

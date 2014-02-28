@@ -1,0 +1,5 @@
+_assetic:
+    resource: .
+    type: assetic
+_app:
+    resource: 'E:/UMK/Studia IS/III rok/V Semestr/PHP/XAMPP/htdocs/RugbyPage/app/config/routing_dev.yml'
